@@ -5,12 +5,17 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "dev-server": "nodemon app.js"
+    "dev-server": "nodemon app.js",
+    "sass:compile": "node-sass --include-path sass public/scss/main.scss public/css/styles.css",
+    "sass-watch": "nodemon -e scss -x \"npm run sass:compile\""
   },
   "author": "Kaden Zipfel",
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.6.1",
     "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.2"
   }
 }
