@@ -1,0 +1,55 @@
+.hero {
+  position: relative;
+  
+  &__img {
+    background-image: url('../img/back.jpg');
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+  }
+  
+  &__heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 90vh;
+    font-size: 8rem;
+    font-family: 'Oswald';
+    font-weight: 300;
+    letter-spacing: .5rem;
+    text-transform: uppercase;
+    opacity: 0;
+    animation: 3s fadeIn forwards;
+    
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    
+    @media (max-width: 800px) {
+      font-size: 6rem;
+    }
+    
+    @media (max-width: 600px) {
+      font-size: 4rem;
+    }
+    
+    @media (max-width: 400px) {
+      font-size: 2.5rem;
+    }
+    
+    &--span {
+      font-weight: 400;
+    }
+  }
+}
