@@ -1,0 +1,18 @@
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio h3, p {
+  color: black;
+}
+
+.portfolio a {
+  text-decoration: none;
+}
+
+.portfolio h3 {
+  font-family: 'Oswald';
+  font-weight: 300;
+  text-transform: uppercase;
+}

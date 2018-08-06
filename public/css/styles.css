@@ -16,6 +16,7 @@ body {
     z-index: -1; }
   .hero__heading {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     color: white;
@@ -23,7 +24,7 @@ body {
     font-size: 8rem;
     font-family: 'Oswald';
     font-weight: 300;
-    letter-spacing: .5rem;
+    letter-spacing: 12px;
     text-transform: uppercase;
     opacity: 0;
     animation: 3s fadeIn forwards; }
@@ -44,3 +45,18 @@ body {
         font-size: 2.5rem; } }
     .hero__heading--span {
       font-weight: 400; }
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap; }
+
+.portfolio h3, p {
+  color: black; }
+
+.portfolio a {
+  text-decoration: none; }
+
+.portfolio h3 {
+  font-family: 'Oswald';
+  font-weight: 300;
+  text-transform: uppercase; }

@@ -15,6 +15,7 @@
   
   &__heading {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     color: white;
@@ -22,7 +23,7 @@
     font-size: 8rem;
     font-family: 'Oswald';
     font-weight: 300;
-    letter-spacing: .5rem;
+    letter-spacing: 12px;
     text-transform: uppercase;
     opacity: 0;
     animation: 3s fadeIn forwards;
