@@ -60,3 +60,14 @@ body {
   font-family: 'Oswald';
   font-weight: 300;
   text-transform: uppercase; }
+
+.about {
+  min-height: 80vh; }
+
+.about__img {
+  width: 100%;
+  border-radius: 5px; }
+
+.about__p {
+  font-size: 20px;
+  line-height: 30px; }
