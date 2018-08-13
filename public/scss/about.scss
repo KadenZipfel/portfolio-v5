@@ -1,13 +1,11 @@
 .about {
   min-height: 80vh;
+  font-size: 16px;
+  line-height: 25px;
+  padding-bottom: 50px;
 }
 
-.about__img {
-  width: 100%;
-  border-radius: 5px;
-}
-
-.about__p {
-  font-size: 20px;
-  line-height: 30px;
+.about__list {
+  line-height: 20px;
+  font-weight: 600;
 }

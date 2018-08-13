@@ -1,6 +1,10 @@
 body {
   margin-top: 60px;
-  font-family: 'Roboto'; }
+  font-family: 'Roboto';
+  background-color: #f2f2f2; }
+
+hr {
+  color: white; }
 
 .hero {
   position: relative;
@@ -67,12 +71,11 @@ body {
   text-transform: uppercase; }
 
 .about {
-  min-height: 80vh; }
+  min-height: 80vh;
+  font-size: 16px;
+  line-height: 25px;
+  padding-bottom: 50px; }
 
-.about__img {
-  width: 100%;
-  border-radius: 5px; }
-
-.about__p {
-  font-size: 20px;
-  line-height: 30px; }
+.about__list {
+  line-height: 20px;
+  font-weight: 600; }
